@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="dotnet-plat-ext-8.0">
   <Assemblies>
-    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="1.0.0.0" />
+    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Bcl.HashCode" Version="1.0.0.0" />
     <Assembly Name="Microsoft.Extensions.AmbientMetadata.Application" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.AsyncState" Version="8.0.0.0" />
@@ -18,7 +18,6 @@
     <Assembly Name="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Configuration.Ini" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Configuration.Json" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.KeyPerFile" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Configuration.Xml" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0.0" />
@@ -27,16 +26,12 @@
     <Assembly Name="Microsoft.Extensions.Diagnostics.Abstractions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Diagnostics" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Diagnostics.ExceptionSummarization" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.Common" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.ResourceUtilization" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Diagnostics.ResourceMonitoring" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.EnumStrings" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.FileProviders.Abstractions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.FileProviders.Composite" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.FileProviders.Physical" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.FileSystemGlobbing" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0.0" />
@@ -46,8 +41,6 @@
     <Assembly Name="Microsoft.Extensions.Http" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Http.Resilience" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Http.Telemetry" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Localization.Abstractions" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Localization" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Logging.Configuration" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Logging.Console" Version="8.0.0.0" />
@@ -57,7 +50,6 @@
     <Assembly Name="Microsoft.Extensions.Logging.EventSource" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Logging.TraceSource" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.ObjectPool.DependencyInjection" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.ObjectPool" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Options.Contextual" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Options.DataAnnotations" Version="8.0.0.0" />
@@ -68,8 +60,7 @@
     <Assembly Name="Microsoft.Extensions.Telemetry" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Telemetry.Testing" Version="8.0.0.0" />
     <Assembly Name="Microsoft.Extensions.TimeProvider.Testing" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.WebEncoders" Version="8.0.0.0" />
-    <Assembly Name="Microsoft.Win32.Registry.AccessControl" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Win32.Registry.AccessControl" Version="7.0.0.0" />
     <Assembly Name="Microsoft.Win32.SystemEvents" Version="8.0.0.0" />
     <Assembly Name="System.Cloud.DocumentDb.Abstractions" Version="8.0.0.0" />
     <Assembly Name="System.Cloud.Messaging" Version="8.0.0.0" />
@@ -733,12 +724,6 @@
       <Member Id="M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)" />
       <Member Id="M:Microsoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonStream(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.IO.Stream)" />
     </Type>
-    <Type Name="Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions" Id="T:Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions">
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions.AddKeyPerFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.Action{Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource})" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions.AddKeyPerFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions.AddKeyPerFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFileConfigurationBuilderExtensions.AddKeyPerFile(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean,System.Boolean)" />
-    </Type>
     <Type Name="Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions" Id="T:Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions">
       <Member Id="M:Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(Microsoft.Extensions.Configuration.IConfigurationBuilder)" />
       <Member Id="M:Microsoft.Extensions.Configuration.MemoryConfigurationBuilderExtensions.AddInMemoryCollection(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})" />
@@ -836,25 +821,6 @@
       <Member Id="M:Microsoft.Extensions.Configuration.Json.JsonStreamConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder)" />
     </Type>
   </Namespace>
-  <Namespace Name="Microsoft.Extensions.Configuration.KeyPerFile">
-    <Type Name="Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider" Id="T:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider">
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider.#ctor(Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource)" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider.Dispose" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider.Load" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationProvider.ToString" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource" Id="T:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource">
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.#ctor" />
-      <Member Id="M:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder)" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.FileProvider" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.IgnoreCondition" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.IgnorePrefix" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.Optional" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.ReloadDelay" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.ReloadOnChange" />
-      <Member Id="P:Microsoft.Extensions.Configuration.KeyPerFile.KeyPerFileConfigurationSource.SectionDelimiter" />
-    </Type>
-  </Namespace>
   <Namespace Name="Microsoft.Extensions.Configuration.Memory">
     <Type Name="Microsoft.Extensions.Configuration.Memory.MemoryConfigurationProvider" Id="T:Microsoft.Extensions.Configuration.Memory.MemoryConfigurationProvider">
       <Member Id="M:Microsoft.Extensions.Configuration.Memory.MemoryConfigurationProvider.#ctor(Microsoft.Extensions.Configuration.Memory.MemoryConfigurationSource)" />
@@ -927,39 +893,9 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
     </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.EncoderServiceCollectionExtensions" Id="T:Microsoft.Extensions.DependencyInjection.EncoderServiceCollectionExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.EncoderServiceCollectionExtensions.AddWebEncoders(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.EncoderServiceCollectionExtensions.AddWebEncoders(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.WebEncoders.WebEncoderOptions})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.EntityFrameworkCoreHealthChecksBuilderExtensions" Id="T:Microsoft.Extensions.DependencyInjection.EntityFrameworkCoreHealthChecksBuilderExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.EntityFrameworkCoreHealthChecksBuilderExtensions.AddDbContextCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Func{``0,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Boolean}})" />
-    </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.FromKeyedServicesAttribute" Id="T:Microsoft.Extensions.DependencyInjection.FromKeyedServicesAttribute">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.FromKeyedServicesAttribute.#ctor(System.Object)" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.FromKeyedServicesAttribute.Key" />
-    </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions" Id="T:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddTypeActivatedCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Object[])" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddTypeActivatedCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.TimeSpan,System.Object[])" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddTypeActivatedCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Object[])" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderAddCheckExtensions.AddTypeActivatedCheck``1(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Object[])" />
-    </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions" Id="T:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddAsyncCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult}},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddAsyncCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult}},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddAsyncCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.Tasks.Task{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult}},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddAsyncCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.Tasks.Task{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult}},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.CancellationToken,Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthChecksBuilderDelegateExtensions.AddCheck(Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder,System.String,System.Func{System.Threading.CancellationToken,Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.HealthCheckServiceCollectionExtensions" Id="T:Microsoft.Extensions.DependencyInjection.HealthCheckServiceCollectionExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.HealthCheckServiceCollectionExtensions.AddHealthChecks(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
     </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions" Id="T:Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddDefaultLogger(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder)" />
@@ -1010,10 +946,6 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.HttpClientFactoryServiceCollectionExtensions.AddHttpClient``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Func{System.Net.Http.HttpClient,System.IServiceProvider,``1})" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.HttpClientFactoryServiceCollectionExtensions.ConfigureHttpClientDefaults(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.IHttpClientBuilder})" />
     </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder" Id="T:Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder.Add(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration)" />
-      <Member Id="P:Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder.Services" />
-    </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" Id="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder">
       <Member Id="P:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder.Name" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder.Services" />
@@ -1048,10 +980,6 @@
     </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.KeyedService" Id="T:Microsoft.Extensions.DependencyInjection.KeyedService">
       <Member Id="P:Microsoft.Extensions.DependencyInjection.KeyedService.AnyKey" />
-    </Type>
-    <Type Name="Microsoft.Extensions.DependencyInjection.LocalizationServiceCollectionExtensions" Id="T:Microsoft.Extensions.DependencyInjection.LocalizationServiceCollectionExtensions">
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.LocalizationServiceCollectionExtensions.AddLocalization(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.LocalizationServiceCollectionExtensions.AddLocalization(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.Localization.LocalizationOptions})" />
     </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions" Id="T:Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
@@ -1536,77 +1464,6 @@
       <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.CommonHealthChecksExtensions.ReportHealthy(Microsoft.Extensions.Diagnostics.HealthChecks.IManualHealthCheck)" />
       <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.CommonHealthChecksExtensions.ReportUnhealthy(Microsoft.Extensions.Diagnostics.HealthChecks.IManualHealthCheck,System.String)" />
     </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext.#ctor" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext.Registration" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions.#ctor" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions.Delay" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions.Period" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions.Predicate" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckPublisherOptions.Timeout" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.#ctor(System.String,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.#ctor(System.String,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck,System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.#ctor(System.String,System.Func{System.IServiceProvider,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck},System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.#ctor(System.String,System.Func{System.IServiceProvider,Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck},System.Nullable{Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus},System.Collections.Generic.IEnumerable{System.String},System.Nullable{System.TimeSpan})" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Delay" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Factory" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.FailureStatus" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Name" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Period" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Tags" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration.Timeout" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.#ctor(Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus,System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Degraded(System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Healthy(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Unhealthy(System.String,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Data" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Description" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Exception" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Status" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService.#ctor" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService.CheckHealthAsync(System.Func{Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckRegistration,System.Boolean},System.Threading.CancellationToken)" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService.CheckHealthAsync(System.Threading.CancellationToken)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckServiceOptions" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckServiceOptions">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckServiceOptions.#ctor" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckServiceOptions.Registrations" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport.#ctor(System.Collections.Generic.IReadOnlyDictionary{System.String,Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry},Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus,System.TimeSpan)" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport.#ctor(System.Collections.Generic.IReadOnlyDictionary{System.String,Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry},System.TimeSpan)" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport.Entries" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport.Status" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport.TotalDuration" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.#ctor(Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus,System.String,System.TimeSpan,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object})" />
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.#ctor(Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus,System.String,System.TimeSpan,System.Exception,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Collections.Generic.IEnumerable{System.String})" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Data" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Description" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Duration" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Exception" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Status" />
-      <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Tags" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus">
-      <Member Id="F:Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus.Degraded" />
-      <Member Id="F:Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus.Healthy" />
-      <Member Id="F:Microsoft.Extensions.Diagnostics.HealthChecks.HealthStatus.Unhealthy" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck.CheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext,System.Threading.CancellationToken)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheckPublisher" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheckPublisher">
-      <Member Id="M:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheckPublisher.PublishAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport,System.Threading.CancellationToken)" />
-    </Type>
     <Type Name="Microsoft.Extensions.Diagnostics.HealthChecks.IManualHealthCheck" Id="T:Microsoft.Extensions.Diagnostics.HealthChecks.IManualHealthCheck">
       <Member Id="P:Microsoft.Extensions.Diagnostics.HealthChecks.IManualHealthCheck.Result" />
     </Type>
@@ -1804,13 +1661,6 @@
       <Member Id="M:Microsoft.Extensions.FileProviders.CompositeFileProvider.Watch(System.String)" />
       <Member Id="P:Microsoft.Extensions.FileProviders.CompositeFileProvider.FileProviders" />
     </Type>
-    <Type Name="Microsoft.Extensions.FileProviders.EmbeddedFileProvider" Id="T:Microsoft.Extensions.FileProviders.EmbeddedFileProvider">
-      <Member Id="M:Microsoft.Extensions.FileProviders.EmbeddedFileProvider.#ctor(System.Reflection.Assembly)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.EmbeddedFileProvider.#ctor(System.Reflection.Assembly,System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.EmbeddedFileProvider.GetDirectoryContents(System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.EmbeddedFileProvider.GetFileInfo(System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.EmbeddedFileProvider.Watch(System.String)" />
-    </Type>
     <Type Name="Microsoft.Extensions.FileProviders.IDirectoryContents" Id="T:Microsoft.Extensions.FileProviders.IDirectoryContents">
       <Member Id="P:Microsoft.Extensions.FileProviders.IDirectoryContents.Exists" />
     </Type>
@@ -1827,16 +1677,6 @@
       <Member Id="M:Microsoft.Extensions.FileProviders.IFileProvider.GetDirectoryContents(System.String)" />
       <Member Id="M:Microsoft.Extensions.FileProviders.IFileProvider.GetFileInfo(System.String)" />
       <Member Id="M:Microsoft.Extensions.FileProviders.IFileProvider.Watch(System.String)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider" Id="T:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider">
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.#ctor(System.Reflection.Assembly)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.#ctor(System.Reflection.Assembly,System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.#ctor(System.Reflection.Assembly,System.String,System.DateTimeOffset)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.#ctor(System.Reflection.Assembly,System.String,System.String,System.DateTimeOffset)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.GetDirectoryContents(System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.GetFileInfo(System.String)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.Watch(System.String)" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.ManifestEmbeddedFileProvider.Assembly" />
     </Type>
     <Type Name="Microsoft.Extensions.FileProviders.NotFoundDirectoryContents" Id="T:Microsoft.Extensions.FileProviders.NotFoundDirectoryContents">
       <Member Id="M:Microsoft.Extensions.FileProviders.NotFoundDirectoryContents.#ctor" />
@@ -1878,18 +1718,6 @@
       <Member Id="P:Microsoft.Extensions.FileProviders.PhysicalFileProvider.Root" />
       <Member Id="P:Microsoft.Extensions.FileProviders.PhysicalFileProvider.UseActivePolling" />
       <Member Id="P:Microsoft.Extensions.FileProviders.PhysicalFileProvider.UsePollingFileWatcher" />
-    </Type>
-  </Namespace>
-  <Namespace Name="Microsoft.Extensions.FileProviders.Embedded">
-    <Type Name="Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo" Id="T:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo">
-      <Member Id="M:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.#ctor(System.Reflection.Assembly,System.String,System.String,System.DateTimeOffset)" />
-      <Member Id="M:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.CreateReadStream" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.Exists" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.IsDirectory" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.LastModified" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.Length" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.Name" />
-      <Member Id="P:Microsoft.Extensions.FileProviders.Embedded.EmbeddedResourceFileInfo.PhysicalPath" />
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Extensions.FileProviders.Internal">
@@ -2865,79 +2693,6 @@
       <Member Id="P:Microsoft.Extensions.Internal.SystemClock.UtcNow" />
     </Type>
   </Namespace>
-  <Namespace Name="Microsoft.Extensions.Localization">
-    <Type Name="Microsoft.Extensions.Localization.IResourceNamesCache" Id="T:Microsoft.Extensions.Localization.IResourceNamesCache">
-      <Member Id="M:Microsoft.Extensions.Localization.IResourceNamesCache.GetOrAdd(System.String,System.Func{System.String,System.Collections.Generic.IList{System.String}})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.IStringLocalizer" Id="T:Microsoft.Extensions.Localization.IStringLocalizer">
-      <Member Id="M:Microsoft.Extensions.Localization.IStringLocalizer.GetAllStrings(System.Boolean)" />
-      <Member Id="P:Microsoft.Extensions.Localization.IStringLocalizer.Item(System.String)" />
-      <Member Id="P:Microsoft.Extensions.Localization.IStringLocalizer.Item(System.String,System.Object[])" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.IStringLocalizer`1" Id="T:Microsoft.Extensions.Localization.IStringLocalizer`1" />
-    <Type Name="Microsoft.Extensions.Localization.IStringLocalizerFactory" Id="T:Microsoft.Extensions.Localization.IStringLocalizerFactory">
-      <Member Id="M:Microsoft.Extensions.Localization.IStringLocalizerFactory.Create(System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.IStringLocalizerFactory.Create(System.Type)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.LocalizationOptions" Id="T:Microsoft.Extensions.Localization.LocalizationOptions">
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizationOptions.#ctor" />
-      <Member Id="P:Microsoft.Extensions.Localization.LocalizationOptions.ResourcesPath" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.LocalizedString" Id="T:Microsoft.Extensions.Localization.LocalizedString">
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizedString.#ctor(System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizedString.#ctor(System.String,System.String,System.Boolean)" />
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizedString.#ctor(System.String,System.String,System.Boolean,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizedString.op_Implicit(Microsoft.Extensions.Localization.LocalizedString)~System.String" />
-      <Member Id="M:Microsoft.Extensions.Localization.LocalizedString.ToString" />
-      <Member Id="P:Microsoft.Extensions.Localization.LocalizedString.Name" />
-      <Member Id="P:Microsoft.Extensions.Localization.LocalizedString.ResourceNotFound" />
-      <Member Id="P:Microsoft.Extensions.Localization.LocalizedString.SearchedLocation" />
-      <Member Id="P:Microsoft.Extensions.Localization.LocalizedString.Value" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.ResourceLocationAttribute" Id="T:Microsoft.Extensions.Localization.ResourceLocationAttribute">
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceLocationAttribute.#ctor(System.String)" />
-      <Member Id="P:Microsoft.Extensions.Localization.ResourceLocationAttribute.ResourceLocation" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.ResourceManagerStringLocalizer" Id="T:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer">
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.#ctor(System.Resources.ResourceManager,System.Reflection.Assembly,System.String,Microsoft.Extensions.Localization.IResourceNamesCache,Microsoft.Extensions.Logging.ILogger)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.GetAllStrings(System.Boolean)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.GetAllStrings(System.Boolean,System.Globalization.CultureInfo)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.GetStringSafely(System.String,System.Globalization.CultureInfo)" />
-      <Member Id="P:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.Item(System.String)" />
-      <Member Id="P:Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.Item(System.String,System.Object[])" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory" Id="T:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory">
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.Extensions.Localization.LocalizationOptions},Microsoft.Extensions.Logging.ILoggerFactory)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.Create(System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.Create(System.Type)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.CreateResourceManagerStringLocalizer(System.Reflection.Assembly,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetResourceLocationAttribute(System.Reflection.Assembly)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetResourcePrefix(System.Reflection.TypeInfo)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetResourcePrefix(System.Reflection.TypeInfo,System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetResourcePrefix(System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetResourcePrefix(System.String,System.String,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceManagerStringLocalizerFactory.GetRootNamespaceAttribute(System.Reflection.Assembly)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.ResourceNamesCache" Id="T:Microsoft.Extensions.Localization.ResourceNamesCache">
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceNamesCache.#ctor" />
-      <Member Id="M:Microsoft.Extensions.Localization.ResourceNamesCache.GetOrAdd(System.String,System.Func{System.String,System.Collections.Generic.IList{System.String}})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.RootNamespaceAttribute" Id="T:Microsoft.Extensions.Localization.RootNamespaceAttribute">
-      <Member Id="M:Microsoft.Extensions.Localization.RootNamespaceAttribute.#ctor(System.String)" />
-      <Member Id="P:Microsoft.Extensions.Localization.RootNamespaceAttribute.RootNamespace" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.StringLocalizer`1" Id="T:Microsoft.Extensions.Localization.StringLocalizer`1">
-      <Member Id="M:Microsoft.Extensions.Localization.StringLocalizer`1.#ctor(Microsoft.Extensions.Localization.IStringLocalizerFactory)" />
-      <Member Id="M:Microsoft.Extensions.Localization.StringLocalizer`1.GetAllStrings(System.Boolean)" />
-      <Member Id="P:Microsoft.Extensions.Localization.StringLocalizer`1.Item(System.String)" />
-      <Member Id="P:Microsoft.Extensions.Localization.StringLocalizer`1.Item(System.String,System.Object[])" />
-    </Type>
-    <Type Name="Microsoft.Extensions.Localization.StringLocalizerExtensions" Id="T:Microsoft.Extensions.Localization.StringLocalizerExtensions">
-      <Member Id="M:Microsoft.Extensions.Localization.StringLocalizerExtensions.GetAllStrings(Microsoft.Extensions.Localization.IStringLocalizer)" />
-      <Member Id="M:Microsoft.Extensions.Localization.StringLocalizerExtensions.GetString(Microsoft.Extensions.Localization.IStringLocalizer,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Localization.StringLocalizerExtensions.GetString(Microsoft.Extensions.Localization.IStringLocalizer,System.String,System.Object[])" />
-    </Type>
-  </Namespace>
   <Namespace Name="Microsoft.Extensions.Logging.Abstractions">
     <Type Name="Microsoft.Extensions.Logging.Abstractions.LogEntry`1" Id="T:Microsoft.Extensions.Logging.Abstractions.LogEntry`1">
       <Member Id="M:Microsoft.Extensions.Logging.Abstractions.LogEntry`1.#ctor(Microsoft.Extensions.Logging.LogLevel,System.String,Microsoft.Extensions.Logging.EventId,`0,System.Exception,System.Func{`0,System.Exception,System.String})" />
@@ -3372,76 +3127,15 @@
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Extensions.ObjectPool">
-    <Type Name="Microsoft.Extensions.ObjectPool.DefaultObjectPool`1" Id="T:Microsoft.Extensions.ObjectPool.DefaultObjectPool`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPool`1.#ctor(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{`0})" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPool`1.#ctor(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{`0},System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPool`1.Get" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPool`1.Return(`0)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider" Id="T:Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0})" />
-      <Member Id="P:Microsoft.Extensions.ObjectPool.DefaultObjectPoolProvider.MaximumRetained" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1" Id="T:Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1.Create" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.DefaultPooledObjectPolicy`1.Return(`0)" />
-    </Type>
     <Type Name="Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions" Id="T:Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions">
       <Member Id="M:Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions.#ctor" />
       <Member Id="P:Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions.Capacity" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1" Id="T:Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1.Create" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1.Return(`0)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.IResettable" Id="T:Microsoft.Extensions.ObjectPool.IResettable">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.IResettable.TryReset" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1" Id="T:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1.#ctor(Microsoft.Extensions.ObjectPool.ObjectPool{`0})" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1.Get" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPool`1.Return(`0)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider" Id="T:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider.#ctor(Microsoft.Extensions.ObjectPool.ObjectPoolProvider)" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.LeakTrackingObjectPoolProvider.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.ObjectPool" Id="T:Microsoft.Extensions.ObjectPool.ObjectPool">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.ObjectPool`1" Id="T:Microsoft.Extensions.ObjectPool.ObjectPool`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPool`1.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPool`1.Get" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPool`1.Return(`0)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.ObjectPoolProvider" Id="T:Microsoft.Extensions.ObjectPool.ObjectPoolProvider">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolProvider.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolProvider.Create``1" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolProvider.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0})" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions" Id="T:Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions.CreateStringBuilderPool(Microsoft.Extensions.ObjectPool.ObjectPoolProvider)" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolProviderExtensions.CreateStringBuilderPool(Microsoft.Extensions.ObjectPool.ObjectPoolProvider,System.Int32,System.Int32)" />
     </Type>
     <Type Name="Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions" Id="T:Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions">
       <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions.AddPooled``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions})" />
       <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions.AddPooled``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions})" />
       <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions.ConfigurePool``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.ObjectPool.DependencyInjectionPoolOptions})" />
       <Member Id="M:Microsoft.Extensions.ObjectPool.ObjectPoolServiceCollectionExtensions.ConfigurePools(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfigurationSection)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1" Id="T:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)" />
-    </Type>
-    <Type Name="Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy" Id="T:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy">
-      <Member Id="M:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy.#ctor" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy.Create" />
-      <Member Id="M:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy.Return(System.Text.StringBuilder)" />
-      <Member Id="P:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy.InitialCapacity" />
-      <Member Id="P:Microsoft.Extensions.ObjectPool.StringBuilderPooledObjectPolicy.MaximumRetainedCapacity" />
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Extensions.Options">
@@ -4590,44 +4284,6 @@
       <Member Id="P:Microsoft.Extensions.Time.Testing.FakeTimeProvider.TimestampFrequency" />
     </Type>
   </Namespace>
-  <Namespace Name="Microsoft.Extensions.WebEncoders.Testing">
-    <Type Name="Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder" Id="T:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder">
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.#ctor" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.Encode(System.String)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.FindFirstCharacterToEncode(System.Char*,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.TryEncodeUnicodeScalar(System.Int32,System.Char*,System.Int32,System.Int32@)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.WillEncode(System.Int32)" />
-      <Member Id="P:Microsoft.Extensions.WebEncoders.Testing.HtmlTestEncoder.MaxOutputCharactersPerInputCharacter" />
-    </Type>
-    <Type Name="Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder" Id="T:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder">
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.#ctor" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.Encode(System.String)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.FindFirstCharacterToEncode(System.Char*,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.TryEncodeUnicodeScalar(System.Int32,System.Char*,System.Int32,System.Int32@)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.WillEncode(System.Int32)" />
-      <Member Id="P:Microsoft.Extensions.WebEncoders.Testing.JavaScriptTestEncoder.MaxOutputCharactersPerInputCharacter" />
-    </Type>
-    <Type Name="Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder" Id="T:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder">
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.#ctor" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.Encode(System.IO.TextWriter,System.Char[],System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.Encode(System.IO.TextWriter,System.String,System.Int32,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.Encode(System.String)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.FindFirstCharacterToEncode(System.Char*,System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.TryEncodeUnicodeScalar(System.Int32,System.Char*,System.Int32,System.Int32@)" />
-      <Member Id="M:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.WillEncode(System.Int32)" />
-      <Member Id="P:Microsoft.Extensions.WebEncoders.Testing.UrlTestEncoder.MaxOutputCharactersPerInputCharacter" />
-    </Type>
-  </Namespace>
-  <Namespace Name="Microsoft.Extensions.WebEncoders">
-    <Type Name="Microsoft.Extensions.WebEncoders.WebEncoderOptions" Id="T:Microsoft.Extensions.WebEncoders.WebEncoderOptions">
-      <Member Id="M:Microsoft.Extensions.WebEncoders.WebEncoderOptions.#ctor" />
-      <Member Id="P:Microsoft.Extensions.WebEncoders.WebEncoderOptions.TextEncoderSettings" />
-    </Type>
-  </Namespace>
   <Namespace Name="Microsoft.SqlServer.Server">
     <Type Name="Microsoft.SqlServer.Server.DataAccessKind" Id="T:Microsoft.SqlServer.Server.DataAccessKind">
       <Member Id="F:Microsoft.SqlServer.Server.DataAccessKind.None" />
@@ -4727,14 +4383,6 @@
       <Member Id="P:Microsoft.SqlServer.Server.SqlDataRecord.FieldCount" />
       <Member Id="P:Microsoft.SqlServer.Server.SqlDataRecord.Item(System.Int32)" />
       <Member Id="P:Microsoft.SqlServer.Server.SqlDataRecord.Item(System.String)" />
-    </Type>
-    <Type Name="Microsoft.SqlServer.Server.SqlFacetAttribute" Id="T:Microsoft.SqlServer.Server.SqlFacetAttribute">
-      <Member Id="M:Microsoft.SqlServer.Server.SqlFacetAttribute.#ctor" />
-      <Member Id="P:Microsoft.SqlServer.Server.SqlFacetAttribute.IsFixedLength" />
-      <Member Id="P:Microsoft.SqlServer.Server.SqlFacetAttribute.IsNullable" />
-      <Member Id="P:Microsoft.SqlServer.Server.SqlFacetAttribute.MaxSize" />
-      <Member Id="P:Microsoft.SqlServer.Server.SqlFacetAttribute.Precision" />
-      <Member Id="P:Microsoft.SqlServer.Server.SqlFacetAttribute.Scale" />
     </Type>
     <Type Name="Microsoft.SqlServer.Server.SqlFunctionAttribute" Id="T:Microsoft.SqlServer.Server.SqlFunctionAttribute">
       <Member Id="M:Microsoft.SqlServer.Server.SqlFunctionAttribute.#ctor" />
@@ -9513,11 +9161,6 @@
       <Member Id="F:System.Data.SqlClient.ApplicationIntent.ReadWrite" />
     </Type>
     <Type Name="System.Data.SqlClient.OnChangeEventHandler" Id="T:System.Data.SqlClient.OnChangeEventHandler" />
-    <Type Name="System.Data.SqlClient.PoolBlockingPeriod" Id="T:System.Data.SqlClient.PoolBlockingPeriod">
-      <Member Id="F:System.Data.SqlClient.PoolBlockingPeriod.AlwaysBlock" />
-      <Member Id="F:System.Data.SqlClient.PoolBlockingPeriod.Auto" />
-      <Member Id="F:System.Data.SqlClient.PoolBlockingPeriod.NeverBlock" />
-    </Type>
     <Type Name="System.Data.SqlClient.SortOrder" Id="T:System.Data.SqlClient.SortOrder">
       <Member Id="F:System.Data.SqlClient.SortOrder.Ascending" />
       <Member Id="F:System.Data.SqlClient.SortOrder.Descending" />
@@ -9774,7 +9417,6 @@
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.PacketSize" />
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.Password" />
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.PersistSecurityInfo" />
-      <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.PoolBlockingPeriod" />
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.Pooling" />
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.Replication" />
       <Member Id="P:System.Data.SqlClient.SqlConnectionStringBuilder.TransactionBinding" />
@@ -9816,7 +9458,6 @@
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)" />
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetChar(System.Int32)" />
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)" />
-      <Member Id="M:System.Data.SqlClient.SqlDataReader.GetColumnSchema" />
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetDataTypeName(System.Int32)" />
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetDateTime(System.Int32)" />
       <Member Id="M:System.Data.SqlClient.SqlDataReader.GetDateTimeOffset(System.Int32)" />
@@ -10073,24 +9714,6 @@
       <Member Id="P:System.Data.SqlClient.SqlTransaction.Connection" />
       <Member Id="P:System.Data.SqlClient.SqlTransaction.DbConnection" />
       <Member Id="P:System.Data.SqlClient.SqlTransaction.IsolationLevel" />
-    </Type>
-  </Namespace>
-  <Namespace Name="System.Data.SqlTypes">
-    <Type Name="System.Data.SqlTypes.SqlFileStream" Id="T:System.Data.SqlTypes.SqlFileStream">
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.#ctor(System.String,System.Byte[],System.IO.FileAccess)" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.#ctor(System.String,System.Byte[],System.IO.FileAccess,System.IO.FileOptions,System.Int64)" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.Flush" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.Read(System.Byte[],System.Int32,System.Int32)" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.Seek(System.Int64,System.IO.SeekOrigin)" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.SetLength(System.Int64)" />
-      <Member Id="M:System.Data.SqlTypes.SqlFileStream.Write(System.Byte[],System.Int32,System.Int32)" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.CanRead" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.CanSeek" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.CanWrite" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.Length" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.Name" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.Position" />
-      <Member Id="P:System.Data.SqlTypes.SqlFileStream.TransactionContext" />
     </Type>
   </Namespace>
   <Namespace Name="System.Diagnostics">
@@ -13611,6 +13234,8 @@
       <Member Id="M:System.Drawing.Font.Finalize" />
       <Member Id="M:System.Drawing.Font.FromHdc(System.IntPtr)" />
       <Member Id="M:System.Drawing.Font.FromHfont(System.IntPtr)" />
+      <Member Id="M:System.Drawing.Font.FromLogFont(System.Drawing.Interop.LOGFONT@)" />
+      <Member Id="M:System.Drawing.Font.FromLogFont(System.Drawing.Interop.LOGFONT@,System.IntPtr)" />
       <Member Id="M:System.Drawing.Font.FromLogFont(System.Object)" />
       <Member Id="M:System.Drawing.Font.FromLogFont(System.Object,System.IntPtr)" />
       <Member Id="M:System.Drawing.Font.GetHashCode" />
@@ -13619,6 +13244,8 @@
       <Member Id="M:System.Drawing.Font.GetHeight(System.Single)" />
       <Member Id="M:System.Drawing.Font.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <Member Id="M:System.Drawing.Font.ToHfont" />
+      <Member Id="M:System.Drawing.Font.ToLogFont(System.Drawing.Interop.LOGFONT@)" />
+      <Member Id="M:System.Drawing.Font.ToLogFont(System.Drawing.Interop.LOGFONT@,System.Drawing.Graphics)" />
       <Member Id="M:System.Drawing.Font.ToLogFont(System.Object)" />
       <Member Id="M:System.Drawing.Font.ToLogFont(System.Object,System.Drawing.Graphics)" />
       <Member Id="M:System.Drawing.Font.ToString" />
@@ -13712,6 +13339,7 @@
       <Member Id="M:System.Drawing.Graphics.DrawBezier(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)" />
       <Member Id="M:System.Drawing.Graphics.DrawBeziers(System.Drawing.Pen,System.Drawing.Point[])" />
       <Member Id="M:System.Drawing.Graphics.DrawBeziers(System.Drawing.Pen,System.Drawing.PointF[])" />
+      <Member Id="M:System.Drawing.Graphics.DrawCachedBitmap(System.Drawing.Imaging.CachedBitmap,System.Int32,System.Int32)" />
       <Member Id="M:System.Drawing.Graphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[])" />
       <Member Id="M:System.Drawing.Graphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single,System.Drawing.Drawing2D.FillMode)" />
       <Member Id="M:System.Drawing.Graphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[])" />
@@ -13784,6 +13412,12 @@
       <Member Id="M:System.Drawing.Graphics.DrawRectangle(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)" />
       <Member Id="M:System.Drawing.Graphics.DrawRectangles(System.Drawing.Pen,System.Drawing.Rectangle[])" />
       <Member Id="M:System.Drawing.Graphics.DrawRectangles(System.Drawing.Pen,System.Drawing.RectangleF[])" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat)" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)" />
+      <Member Id="M:System.Drawing.Graphics.DrawString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single,System.Drawing.StringFormat)" />
       <Member Id="M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)" />
       <Member Id="M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)" />
       <Member Id="M:System.Drawing.Graphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)" />
@@ -13881,7 +13515,15 @@
       <Member Id="M:System.Drawing.Graphics.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)" />
       <Member Id="M:System.Drawing.Graphics.IsVisible(System.Single,System.Single)" />
       <Member Id="M:System.Drawing.Graphics.IsVisible(System.Single,System.Single,System.Single,System.Single)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureCharacterRanges(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)" />
       <Member Id="M:System.Drawing.Graphics.MeasureCharacterRanges(System.String,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.SizeF)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat,System.Int32@,System.Int32@)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Int32)" />
+      <Member Id="M:System.Drawing.Graphics.MeasureString(System.ReadOnlySpan{System.Char},System.Drawing.Font,System.Int32,System.Drawing.StringFormat)" />
       <Member Id="M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font)" />
       <Member Id="M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)" />
       <Member Id="M:System.Drawing.Graphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF)" />
@@ -13961,6 +13603,8 @@
       <Member Id="M:System.Drawing.Icon.Clone" />
       <Member Id="M:System.Drawing.Icon.Dispose" />
       <Member Id="M:System.Drawing.Icon.ExtractAssociatedIcon(System.String)" />
+      <Member Id="M:System.Drawing.Icon.ExtractIcon(System.String,System.Int32,System.Boolean)" />
+      <Member Id="M:System.Drawing.Icon.ExtractIcon(System.String,System.Int32,System.Int32)" />
       <Member Id="M:System.Drawing.Icon.Finalize" />
       <Member Id="M:System.Drawing.Icon.FromHandle(System.IntPtr)" />
       <Member Id="M:System.Drawing.Icon.Save(System.IO.Stream)" />
@@ -14319,6 +13963,108 @@
       <Member Id="M:System.Drawing.SolidBrush.Dispose(System.Boolean)" />
       <Member Id="P:System.Drawing.SolidBrush.Color" />
     </Type>
+    <Type Name="System.Drawing.StockIconId" Id="T:System.Drawing.StockIconId">
+      <Member Id="F:System.Drawing.StockIconId.Application" />
+      <Member Id="F:System.Drawing.StockIconId.AudioFiles" />
+      <Member Id="F:System.Drawing.StockIconId.AutoList" />
+      <Member Id="F:System.Drawing.StockIconId.ClusteredDrive" />
+      <Member Id="F:System.Drawing.StockIconId.Delete" />
+      <Member Id="F:System.Drawing.StockIconId.DesktopPC" />
+      <Member Id="F:System.Drawing.StockIconId.DeviceAudioPlayer" />
+      <Member Id="F:System.Drawing.StockIconId.DeviceCamera" />
+      <Member Id="F:System.Drawing.StockIconId.DeviceCellPhone" />
+      <Member Id="F:System.Drawing.StockIconId.DeviceVideoCamera" />
+      <Member Id="F:System.Drawing.StockIconId.DocumentNoAssociation" />
+      <Member Id="F:System.Drawing.StockIconId.DocumentWithAssociation" />
+      <Member Id="F:System.Drawing.StockIconId.Drive35" />
+      <Member Id="F:System.Drawing.StockIconId.Drive525" />
+      <Member Id="F:System.Drawing.StockIconId.DriveBD" />
+      <Member Id="F:System.Drawing.StockIconId.DriveCD" />
+      <Member Id="F:System.Drawing.StockIconId.DriveDVD" />
+      <Member Id="F:System.Drawing.StockIconId.DriveFixed" />
+      <Member Id="F:System.Drawing.StockIconId.DriveHDDVD" />
+      <Member Id="F:System.Drawing.StockIconId.DriveNet" />
+      <Member Id="F:System.Drawing.StockIconId.DriveNetDisabled" />
+      <Member Id="F:System.Drawing.StockIconId.DriveRam" />
+      <Member Id="F:System.Drawing.StockIconId.DriveRemovable" />
+      <Member Id="F:System.Drawing.StockIconId.DriveUnknown" />
+      <Member Id="F:System.Drawing.StockIconId.Error" />
+      <Member Id="F:System.Drawing.StockIconId.Find" />
+      <Member Id="F:System.Drawing.StockIconId.Folder" />
+      <Member Id="F:System.Drawing.StockIconId.FolderBack" />
+      <Member Id="F:System.Drawing.StockIconId.FolderFront" />
+      <Member Id="F:System.Drawing.StockIconId.FolderOpen" />
+      <Member Id="F:System.Drawing.StockIconId.Help" />
+      <Member Id="F:System.Drawing.StockIconId.ImageFiles" />
+      <Member Id="F:System.Drawing.StockIconId.Info" />
+      <Member Id="F:System.Drawing.StockIconId.Internet" />
+      <Member Id="F:System.Drawing.StockIconId.Key" />
+      <Member Id="F:System.Drawing.StockIconId.Link" />
+      <Member Id="F:System.Drawing.StockIconId.Lock" />
+      <Member Id="F:System.Drawing.StockIconId.MediaAudioDVD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaBDR" />
+      <Member Id="F:System.Drawing.StockIconId.MediaBDRE" />
+      <Member Id="F:System.Drawing.StockIconId.MediaBDROM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaBlankCD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaBluRay" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDAudio" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDAudioPlus" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDBurn" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDR" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDROM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCDRW" />
+      <Member Id="F:System.Drawing.StockIconId.MediaCompactFlash" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDPlusR" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDPlusRW" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDR" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDRAM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDROM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaDVDRW" />
+      <Member Id="F:System.Drawing.StockIconId.MediaEnhancedCD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaEnhancedDVD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaHDDVD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaHDDVDR" />
+      <Member Id="F:System.Drawing.StockIconId.MediaHDDVDRAM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaHDDVDROM" />
+      <Member Id="F:System.Drawing.StockIconId.MediaMovieDVD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaSmartMedia" />
+      <Member Id="F:System.Drawing.StockIconId.MediaSVCD" />
+      <Member Id="F:System.Drawing.StockIconId.MediaVCD" />
+      <Member Id="F:System.Drawing.StockIconId.MixedFiles" />
+      <Member Id="F:System.Drawing.StockIconId.MobilePC" />
+      <Member Id="F:System.Drawing.StockIconId.MyNetwork" />
+      <Member Id="F:System.Drawing.StockIconId.NetworkConnect" />
+      <Member Id="F:System.Drawing.StockIconId.Printer" />
+      <Member Id="F:System.Drawing.StockIconId.PrinterFax" />
+      <Member Id="F:System.Drawing.StockIconId.PrinterFaxNet" />
+      <Member Id="F:System.Drawing.StockIconId.PrinterFile" />
+      <Member Id="F:System.Drawing.StockIconId.PrinterNet" />
+      <Member Id="F:System.Drawing.StockIconId.Recycler" />
+      <Member Id="F:System.Drawing.StockIconId.RecyclerFull" />
+      <Member Id="F:System.Drawing.StockIconId.Rename" />
+      <Member Id="F:System.Drawing.StockIconId.Server" />
+      <Member Id="F:System.Drawing.StockIconId.ServerShare" />
+      <Member Id="F:System.Drawing.StockIconId.Settings" />
+      <Member Id="F:System.Drawing.StockIconId.Share" />
+      <Member Id="F:System.Drawing.StockIconId.Shield" />
+      <Member Id="F:System.Drawing.StockIconId.SlowFile" />
+      <Member Id="F:System.Drawing.StockIconId.Software" />
+      <Member Id="F:System.Drawing.StockIconId.Stack" />
+      <Member Id="F:System.Drawing.StockIconId.StuffedFolder" />
+      <Member Id="F:System.Drawing.StockIconId.Users" />
+      <Member Id="F:System.Drawing.StockIconId.VideoFiles" />
+      <Member Id="F:System.Drawing.StockIconId.Warning" />
+      <Member Id="F:System.Drawing.StockIconId.World" />
+      <Member Id="F:System.Drawing.StockIconId.ZipFile" />
+    </Type>
+    <Type Name="System.Drawing.StockIconOptions" Id="T:System.Drawing.StockIconOptions">
+      <Member Id="F:System.Drawing.StockIconOptions.Default" />
+      <Member Id="F:System.Drawing.StockIconOptions.LinkOverlay" />
+      <Member Id="F:System.Drawing.StockIconOptions.Selected" />
+      <Member Id="F:System.Drawing.StockIconOptions.ShellIconSize" />
+      <Member Id="F:System.Drawing.StockIconOptions.SmallIcon" />
+    </Type>
     <Type Name="System.Drawing.StringAlignment" Id="T:System.Drawing.StringAlignment">
       <Member Id="F:System.Drawing.StringAlignment.Center" />
       <Member Id="F:System.Drawing.StringAlignment.Far" />
@@ -14430,6 +14176,8 @@
       <Member Id="P:System.Drawing.SystemFonts.StatusFont" />
     </Type>
     <Type Name="System.Drawing.SystemIcons" Id="T:System.Drawing.SystemIcons">
+      <Member Id="M:System.Drawing.SystemIcons.GetStockIcon(System.Drawing.StockIconId,System.Drawing.StockIconOptions)" />
+      <Member Id="M:System.Drawing.SystemIcons.GetStockIcon(System.Drawing.StockIconId,System.Int32)" />
       <Member Id="P:System.Drawing.SystemIcons.Application" />
       <Member Id="P:System.Drawing.SystemIcons.Asterisk" />
       <Member Id="P:System.Drawing.SystemIcons.Error" />
@@ -15009,6 +14757,11 @@
       <Member Id="P:System.Drawing.Imaging.BitmapData.Scan0" />
       <Member Id="P:System.Drawing.Imaging.BitmapData.Stride" />
       <Member Id="P:System.Drawing.Imaging.BitmapData.Width" />
+    </Type>
+    <Type Name="System.Drawing.Imaging.CachedBitmap" Id="T:System.Drawing.Imaging.CachedBitmap">
+      <Member Id="M:System.Drawing.Imaging.CachedBitmap.#ctor(System.Drawing.Bitmap,System.Drawing.Graphics)" />
+      <Member Id="M:System.Drawing.Imaging.CachedBitmap.Dispose" />
+      <Member Id="M:System.Drawing.Imaging.CachedBitmap.Finalize" />
     </Type>
     <Type Name="System.Drawing.Imaging.ColorAdjustType" Id="T:System.Drawing.Imaging.ColorAdjustType">
       <Member Id="F:System.Drawing.Imaging.ColorAdjustType.Any" />
@@ -15690,6 +15443,24 @@
       <Member Id="P:System.Drawing.Imaging.WmfPlaceableFileHeader.Inch" />
       <Member Id="P:System.Drawing.Imaging.WmfPlaceableFileHeader.Key" />
       <Member Id="P:System.Drawing.Imaging.WmfPlaceableFileHeader.Reserved" />
+    </Type>
+  </Namespace>
+  <Namespace Name="System.Drawing.Interop">
+    <Type Name="System.Drawing.Interop.LOGFONT" Id="T:System.Drawing.Interop.LOGFONT">
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfCharSet" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfClipPrecision" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfEscapement" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfHeight" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfItalic" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfOrientation" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfOutPrecision" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfPitchAndFamily" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfQuality" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfStrikeOut" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfUnderline" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfWeight" />
+      <Member Id="F:System.Drawing.Interop.LOGFONT.lfWidth" />
+      <Member Id="P:System.Drawing.Interop.LOGFONT.lfFaceName" />
     </Type>
   </Namespace>
   <Namespace Name="System.Drawing.Printing">
